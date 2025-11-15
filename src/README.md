@@ -73,32 +73,32 @@ Whether you're preparing for interviews, learning Java history, or exploring new
 
 | Version | Release Year | Status | Key Features | Documentation |
 |---------|-------------|--------|--------------|---------------|
-| **Java 1.0** | 1996 | ✅ | Core Language, AWT, Applets | [📖 Read More](com/misc/java1/README.md) |
-| **Java 1.1** | 1997 | ✅ | Inner Classes, JDBC, RMI, Reflection | [📖 Read More](com/misc/java1_1/README.md) |
-| **Java 1.2** | 1998 | ✅ | Collections Framework, Swing, strictfp | [📖 Read More](com/misc/java1_2/README.md) |
-| **Java 1.3** | 2000 | ✅ | HotSpot JVM, JNDI, JavaSound | [📖 Read More](com/misc/java1_3/README.md) |
-| **Java 1.4** | 2002 | ✅ | Assertions, Regex, NIO, Logging | [📖 Read More](com/misc/java1_4/README.md) |
-| **Java 5** | 2004 | ✅ | Generics, Enums, Autoboxing, Annotations | [📖 Read More](com/misc/java5/README.md) |
-| **Java 6** | 2006 | ✅ | Scripting API, Compiler API, JDBC 4.0 | [📖 Read More](com/misc/java6/README.md) |
-| **Java 7** | 2011 | ✅ | Try-with-Resources, Diamond Operator, NIO.2 | [📖 Read More](com/misc/java7/README.md) |
-| **Java 8** | 2014 | ✅ | Lambda, Streams, Optional, Date/Time API | [📖 Read More](com/misc/java8/README.md) |
-| **Java 9** | 2017 | ✅ | Module System, JShell, HTTP/2 Client | [📖 Read More](com/misc/java9/README.md) |
-| **Java 10** | 2018 | ✅ | Local-Variable Type Inference (var) | [📖 Read More](com/misc/java10/README.md) |
-| **Java 11** | 2018 | 🏆 **LTS** | HTTP Client, String Methods, JFR | [📖 Read More](com/misc/java11/README.md) |
-| **Java 12** | 2019 | ✅ | Switch Expressions, JVM Constants API | [📖 Read More](com/misc/java12/README.md) |
-| **Java 13** | 2019 | ✅ | Text Blocks, Switch Expressions | [📖 Read More](com/misc/java13/README.md) |
-| **Java 14** | 2020 | ✅ | Records, Pattern Matching, Helpful NPE | [📖 Read More](com/misc/java14/README.md) |
-| **Java 15** | 2020 | ✅ | Sealed Classes, Hidden Classes, Text Blocks | [📖 Read More](com/misc/java15/README.md) |
-| **Java 16** | 2021 | ✅ | Records Finalized, Pattern Matching | [📖 Read More](com/misc/java16/README.md) |
-| **Java 17** | 2021 | 🏆 **LTS** | Sealed Classes, Pattern Matching, JEP 356 | [📖 Read More](com/misc/java17/README.md) |
-| **Java 18** | 2022 | ✅ | Simple Web Server, UTF-8 by Default | [📖 Read More](com/misc/java18/README.md) |
-| **Java 19** | 2022 | ✅ | Virtual Threads, Record Patterns | [📖 Read More](com/misc/java19/README.md) |
-| **Java 20** | 2023 | ✅ | Scoped Values, Record Patterns | [📖 Read More](com/misc/java20/README.md) |
-| **Java 21** | 2023 | 🏆 **LTS** | Virtual Threads, Pattern Matching, Sequenced Collections | [📖 Read More](com/misc/java21/README.md) |
-| **Java 22** | 2024 | ✅ | Statements Before super(), Stream Gatherers | [📖 Read More](com/misc/java22/README.md) |
-| **Java 23** | 2024 | ✅ | Flexible Constructor Bodies, Module Imports | [📖 Read More](com/misc/java23/README.md) |
-| **Java 24** | 2025 | ✅ | AOT Compilation, Stream Gatherers Finalized | [📖 Read More](com/misc/java24/README.md) |
-| **Java 25** | 2025 | ✅ | Instance Main Methods, Enhanced Pattern Matching | [📖 Read More](com/misc/java25/README.md) |
+| **Java 1.0** | 1996 | ✅ | Core Language, AWT, Applets | [📖 Read More](src/java1/README.md) |
+| **Java 1.1** | 1997 | ✅ | Inner Classes, JDBC, RMI, Reflection | [📖 Read More](src/java1_1/README.md) |
+| **Java 1.2** | 1998 | ✅ | Collections Framework, Swing, strictfp | [📖 Read More](src/java1_2/README.md) |
+| **Java 1.3** | 2000 | ✅ | HotSpot JVM, JNDI, JavaSound | [📖 Read More](src/java1_3/README.md) |
+| **Java 1.4** | 2002 | ✅ | Assertions, Regex, NIO, Logging | [📖 Read More](src/java1_4/README.md) |
+| **Java 5** | 2004 | ✅ | Generics, Enums, Autoboxing, Annotations | [📖 Read More](src/java5/README.md) |
+| **Java 6** | 2006 | ✅ | Scripting API, Compiler API, JDBC 4.0 | [📖 Read More](src/java6/README.md) |
+| **Java 7** | 2011 | ✅ | Try-with-Resources, Diamond Operator, NIO.2 | [📖 Read More](src/java7/README.md) |
+| **Java 8** | 2014 | ✅ | Lambda, Streams, Optional, Date/Time API | [📖 Read More](src/java8/README.md) |
+| **Java 9** | 2017 | ✅ | Module System, JShell, HTTP/2 Client | [📖 Read More](src/java9/README.md) |
+| **Java 10** | 2018 | ✅ | Local-Variable Type Inference (var) | [📖 Read More](src/java10/README.md) |
+| **Java 11** | 2018 | 🏆 **LTS** | HTTP Client, String Methods, JFR | [📖 Read More](src/java11/README.md) |
+| **Java 12** | 2019 | ✅ | Switch Expressions, JVM Constants API | [📖 Read More](src/java12/README.md) |
+| **Java 13** | 2019 | ✅ | Text Blocks, Switch Expressions | [📖 Read More](src/java13/README.md) |
+| **Java 14** | 2020 | ✅ | Records, Pattern Matching, Helpful NPE | [📖 Read More](src/java14/README.md) |
+| **Java 15** | 2020 | ✅ | Sealed Classes, Hidden Classes, Text Blocks | [📖 Read More](src/java15/README.md) |
+| **Java 16** | 2021 | ✅ | Records Finalized, Pattern Matching | [📖 Read More](src/java16/README.md) |
+| **Java 17** | 2021 | 🏆 **LTS** | Sealed Classes, Pattern Matching, JEP 356 | [📖 Read More](src/java17/README.md) |
+| **Java 18** | 2022 | ✅ | Simple Web Server, UTF-8 by Default | [📖 Read More](src/java18/README.md) |
+| **Java 19** | 2022 | ✅ | Virtual Threads, Record Patterns | [📖 Read More](src/java19/README.md) |
+| **Java 20** | 2023 | ✅ | Scoped Values, Record Patterns | [📖 Read More](src/java20/README.md) |
+| **Java 21** | 2023 | 🏆 **LTS** | Virtual Threads, Pattern Matching, Sequenced Collections | [📖 Read More](src/java21/README.md) |
+| **Java 22** | 2024 | ✅ | Statements Before super(), Stream Gatherers | [📖 Read More](src/java22/README.md) |
+| **Java 23** | 2024 | ✅ | Flexible Constructor Bodies, Module Imports | [📖 Read More](src/java23/README.md) |
+| **Java 24** | 2025 | ✅ | AOT Compilation, Stream Gatherers Finalized | [📖 Read More](src/java24/README.md) |
+| **Java 25** | 2025 | ✅ | Instance Main Methods, Enhanced Pattern Matching | [📖 Read More](src/java25/README.md) |
 
 > **Legend:** 🏆 = Long-Term Support (LTS) Version
 
@@ -123,13 +123,13 @@ cd geeksforgeeks
 
 ```bash
 # Java 8 Lambda Expressions
-cd com/misc/java8/lambda
+cd src/java8/foundation
 
 # Java 11 HTTP Client
-cd com/misc/java11/httpclient
+cd src/java11/httpclient
 
 # Java 17 Sealed Classes
-cd com/misc/java17/sealedclasses
+cd src/java17/sealedclasses
 ```
 
 ### Run Examples
@@ -161,56 +161,56 @@ Each Java version has its own comprehensive README.md file covering:
 <details>
 <summary><b>📖 Java 1.0 - 1.4 (Foundation Years)</b></summary>
 
-- [Java 1.0](com/misc/java1/README.md) - Core Language, OOP, AWT, Applets
-- [Java 1.1](com/misc/java1_1/README.md) - Inner Classes, JDBC, RMI, Reflection
-- [Java 1.2](com/misc/java1_2/README.md) - Collections, Swing, strictfp
-- [Java 1.3](com/misc/java1_3/README.md) - HotSpot JVM, JNDI, JavaSound
-- [Java 1.4](com/misc/java1_4/README.md) - Assertions, Regex, NIO, Logging
+- [Java 1.0](src/java1/README.md) - Core Language, OOP, AWT, Applets
+- [Java 1.1](src/java1_1/README.md) - Inner Classes, JDBC, RMI, Reflection
+- [Java 1.2](src/java1_2/README.md) - Collections, Swing, strictfp
+- [Java 1.3](src/java1_3/README.md) - HotSpot JVM, JNDI, JavaSound
+- [Java 1.4](src/java1_4/README.md) - Assertions, Regex, NIO, Logging
 
 </details>
 
 <details>
 <summary><b>📖 Java 5 - 7 (Modern Java Foundation)</b></summary>
 
-- [Java 5](com/misc/java5/README.md) - Generics, Enums, Autoboxing, Annotations
-- [Java 6](com/misc/java6/README.md) - Scripting API, Compiler API
-- [Java 7](com/misc/java7/README.md) - Try-with-Resources, Diamond Operator, NIO.2
+- [Java 5](src/java5/README.md) - Generics, Enums, Autoboxing, Annotations
+- [Java 6](src/java6/README.md) - Scripting API, Compiler API
+- [Java 7](src/java7/README.md) - Try-with-Resources, Diamond Operator, NIO.2
 
 </details>
 
 <details>
 <summary><b>📖 Java 8 - 11 (Functional Programming Era)</b></summary>
 
-- [Java 8](com/misc/java8/README.md) - Lambda, Streams, Optional, Date/Time API
-- [Java 9](com/misc/java9/README.md) - Module System, JShell, HTTP/2 Client
-- [Java 10](com/misc/java10/README.md) - Local-Variable Type Inference (var)
-- [Java 11 (LTS)](com/misc/java11/README.md) - HTTP Client, String Methods, JFR
+- [Java 8](src/java8/README.md) - Lambda, Streams, Optional, Date/Time API
+- [Java 9](src/java9/README.md) - Module System, JShell, HTTP/2 Client
+- [Java 10](src/java10/README.md) - Local-Variable Type Inference (var)
+- [Java 11 (LTS)](src/java11/README.md) - HTTP Client, String Methods, JFR
 
 </details>
 
 <details>
 <summary><b>📖 Java 12 - 17 (Modern Features)</b></summary>
 
-- [Java 12](com/misc/java12/README.md) - Switch Expressions, JVM Constants API
-- [Java 13](com/misc/java13/README.md) - Text Blocks, Switch Expressions
-- [Java 14](com/misc/java14/README.md) - Records, Pattern Matching
-- [Java 15](com/misc/java15/README.md) - Sealed Classes, Hidden Classes
-- [Java 16](com/misc/java16/README.md) - Records Finalized, Pattern Matching
-- [Java 17 (LTS)](com/misc/java17/README.md) - Sealed Classes Finalized, Pattern Matching
+- [Java 12](src/java12/README.md) - Switch Expressions, JVM Constants API
+- [Java 13](src/java13/README.md) - Text Blocks, Switch Expressions
+- [Java 14](src/java14/README.md) - Records, Pattern Matching
+- [Java 15](src/java15/README.md) - Sealed Classes, Hidden Classes
+- [Java 16](src/java16/README.md) - Records Finalized, Pattern Matching
+- [Java 17 (LTS)](src/java17/README.md) - Sealed Classes Finalized, Pattern Matching
 
 </details>
 
 <details>
 <summary><b>📖 Java 18 - 25 (Latest Features)</b></summary>
 
-- [Java 18](com/misc/java18/README.md) - Simple Web Server, UTF-8 by Default
-- [Java 19](com/misc/java19/README.md) - Virtual Threads, Record Patterns
-- [Java 20](com/misc/java20/README.md) - Scoped Values, Record Patterns
-- [Java 21 (LTS)](com/misc/java21/README.md) - Virtual Threads, Pattern Matching, Sequenced Collections
-- [Java 22](com/misc/java22/README.md) - Statements Before super(), Stream Gatherers
-- [Java 23](com/misc/java23/README.md) - Flexible Constructor Bodies, Module Imports
-- [Java 24](com/misc/java24/README.md) - AOT Compilation, Stream Gatherers Finalized
-- [Java 25](com/misc/java25/README.md) - Instance Main Methods, Enhanced Pattern Matching
+- [Java 18](src/java18/README.md) - Simple Web Server, UTF-8 by Default
+- [Java 19](src/java19/README.md) - Virtual Threads, Record Patterns
+- [Java 20](src/java20/README.md) - Scoped Values, Record Patterns
+- [Java 21 (LTS)](src/java21/README.md) - Virtual Threads, Pattern Matching, Sequenced Collections
+- [Java 22](src/java22/README.md) - Statements Before super(), Stream Gatherers
+- [Java 23](src/java23/README.md) - Flexible Constructor Bodies, Module Imports
+- [Java 24](src/java24/README.md) - AOT Compilation, Stream Gatherers Finalized
+- [Java 25](src/java25/README.md) - Instance Main Methods, Enhanced Pattern Matching
 
 </details>
 
@@ -219,16 +219,13 @@ Each Java version has its own comprehensive README.md file covering:
 ## 📁 Project Structure
 
 ```
-geeksforgeeks/
+JavaVersionsandFeatures/
 │
 ├── README.md                    # This file - Project landing page
 │
-├── com/misc/
+├── src/
 │   ├── java1/                   # Java 1.0 features and examples
 │   │   ├── README.md
-│   │   ├── core/
-│   │   ├── oop/
-│   │   ├── awt/
 │   │   └── ...
 │   │
 │   ├── java1_1/                 # Java 1.1 features
@@ -280,7 +277,7 @@ Runnable r1 = new Runnable() {
 Runnable r2 = () -> System.out.println("Hello");
 ```
 
-[View Full Example](com/misc/java8/lambda/LambdaExpressions.java)
+[View Full Example](src/java8/foundation/LambdaDemo.java)
 
 #### 🌟 Java 11 - HTTP Client
 ```java
@@ -292,7 +289,7 @@ HttpResponse<String> response = client.send(request,
     HttpResponse.BodyHandlers.ofString());
 ```
 
-[View Full Example](com/misc/java11/httpclient/HttpClientStandard.java)
+[View Full Example](src/java11/httpclient/HttpClientStandard.java)
 
 #### 🌟 Java 17 - Sealed Classes
 ```java
@@ -302,7 +299,7 @@ public sealed class Shape
 }
 ```
 
-[View Full Example](com/misc/java17/sealedclasses/SealedClassesDemo.java)
+[View Full Example](src/java17/sealedclasses/SealedClassesDemo.java)
 
 #### 🌟 Java 21 - Virtual Threads
 ```java
@@ -313,7 +310,7 @@ try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 }
 ```
 
-[View Full Example](com/misc/java21/virtualthreads/VirtualThreadsDemo.java)
+[View Full Example](src/java21/virtualthreads/VirtualThreadsFinalized.java)
 
 ---
 
