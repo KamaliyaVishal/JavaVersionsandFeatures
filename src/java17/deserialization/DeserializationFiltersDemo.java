@@ -71,7 +71,7 @@ public class DeserializationFiltersDemo {
             
             // Allow only classes from specific packages
             if (className.startsWith("java.") || 
-                className.startsWith("com.misc.java17.deserialization.")) {
+                className.startsWith("java17.deserialization.")) {
                 return ObjectInputFilter.Status.ALLOWED;
             }
             
@@ -80,11 +80,11 @@ public class DeserializationFiltersDemo {
         };
         
         System.out.println("Custom filter:");
-        System.out.println("  - Allows: java.* and com.misc.java17.deserialization.*");
+        System.out.println("  - Allows: java.* and java17.deserialization.*");
         System.out.println("  - Rejects: All other classes");
         
         // Test the custom filter
-        testFilter(customFilter, "java.lang.String", "com.misc.java17.deserialization.SerializableData", "com.example.Custom");
+        testFilter(customFilter, "java.lang.String", "java17.deserialization.SerializableData", "com.example.Custom");
     }
     
     private static void demonstrateFilterPatterns() {

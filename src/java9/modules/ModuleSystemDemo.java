@@ -9,21 +9,21 @@ package java9.modules;
  * 
  * Example module-info.java:
  * 
- * module com.misc.java9.modules {
+ * module java9.modules {
  *     requires java.base;           // Implicitly required, can be omitted
  *     requires java.logging;
  *     
- *     exports com.misc.java9.modules;
+ *     exports java9.modules;
  *     
  *     // For reflection access (if needed by frameworks)
- *     // opens com.misc.java9.modules.internal;
+ *     // opens java9.modules.internal;
  *     
  *     // Service provider pattern
- *     // provides com.misc.java9.modules.Service
- *     //     with com.misc.java9.modules.ServiceImpl;
+ *     // provides java9.modules.Service
+ *     //     with java9.modules.ServiceImpl;
  *     
  *     // Service consumer
- *     // uses com.misc.java9.modules.Service;
+ *     // uses java9.modules.Service;
  * }
  * 
  * Key Concepts:
@@ -48,7 +48,7 @@ public class ModuleSystemDemo {
         System.out.println("2. Declare module dependencies with 'requires'");
         System.out.println("3. Export packages with 'exports'");
         System.out.println("4. Compile with: javac -d mods src/module-info.java src/com/misc/java9/modules/*.java");
-        System.out.println("5. Run with: java --module-path mods -m com.misc.java9.modules/com.misc.java9.modules.ModuleSystemDemo");
+        System.out.println("5. Run with: java --module-path mods -m java9.modules/java9.modules.ModuleSystemDemo");
         
         // Example of using a module (java.logging)
         System.out.println("\n=== Using Module Dependencies ===");

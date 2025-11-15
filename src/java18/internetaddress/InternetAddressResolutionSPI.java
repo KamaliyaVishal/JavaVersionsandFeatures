@@ -10,7 +10,7 @@ package java18.internetaddress;
  * 
  * To use this, you need to register it via ServiceLoader:
  * 1. Create file: META-INF/services/java.net.spi.InetAddressResolverProvider
- * 2. Add line: com.misc.java18.internetaddress.CustomResolverProvider
+ * 2. Add line: java18.internetaddress.CustomResolverProvider
  * 3. The ServiceLoader will automatically discover and use it
  */
 public class InternetAddressResolutionSPI {
@@ -55,7 +55,7 @@ public class InternetAddressResolutionSPI {
         
         System.out.println("\nTo register the provider:");
         System.out.println("1. Create file: META-INF/services/java.net.spi.InetAddressResolverProvider");
-        System.out.println("2. Add line: com.misc.java18.internetaddress.CustomResolverProvider");
+        System.out.println("2. Add line: java18.internetaddress.CustomResolverProvider");
         System.out.println("3. The ServiceLoader will automatically discover and use it");
         
         System.out.println("\nUse Cases:");
